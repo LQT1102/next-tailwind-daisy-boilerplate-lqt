@@ -1,5 +1,4 @@
 import { changeCurrentTheme, getCurrentTheme } from "@/src/utils/theme";
-import dynamic from "next/dynamic";
 import React, { useEffect, useState } from "react";
 
 export interface IThemeSettingProps {}

@@ -1,5 +1,4 @@
-import { changeCurrentTheme, getCurrentTheme } from "@/src/utils/theme";
-import dynamic from "next/dynamic";
+import ThemeSettingWithNoSSR from "@/src/components/base/ThemeSetting/ThemeSettingWithNoSSR";
 import useTranslations from "../utils/translation";
 
 export interface ISwapPageProps {}
@@ -9,16 +8,9 @@ const Index = (props: any) => {
 
     return (
         <div>
-            {t("hello", { name: "world" })} <DynamicThemeSetting />
+            {t("hello", { name: "world" })} <ThemeSettingWithNoSSR />
         </div>
     );
 };
 
 export default Index;
-
-const DynamicThemeSetting = dynamic(
-    () => import("../components/base/ThemeSetting"),
-    {
-        ssr: false,
-    }
-);
