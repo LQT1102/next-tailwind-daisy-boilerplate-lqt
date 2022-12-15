@@ -31,13 +31,10 @@ export default function ThemeSetting() {
                 <option value="retro">Retro</option>
                 <option value="dracula">Dracula</option>
                 <option value="cyberpunk">Cyberpunk</option>
-            </select>{" "}
-            <button
-                className="btn mx-4 text-custom-color"
-                onClick={() => getCurrentTheme()}
-            >
-                Get current
-            </button>
+            </select>
+            <div className="mx-4 font-bold inline-block text-custom-color">
+                Custom color
+            </div>
             <button
                 className="btn mx-4"
                 onClick={() => changeCurrentTheme("light")}
