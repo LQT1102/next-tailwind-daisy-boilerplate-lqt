@@ -14,7 +14,8 @@ export const getCurrentTheme = () => {
         const currentTheme = document.getElementById("root-html")?.getAttribute("data-theme");
         return currentTheme;
     }
+
    } catch (error) {
-    return ""
+    return "";
    }
   };
