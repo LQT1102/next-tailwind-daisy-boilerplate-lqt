@@ -3,7 +3,7 @@
  <img width=200px height=200px src="" alt="Project logo" style="border-radius: 50%"></a>
 </p>
 
-<h3 align="center"><strong>digi-miners</strong>
+<h3 align="center"><strong>Project name</strong>
 </h3>
 
 <div align="center">
@@ -17,12 +17,12 @@
 
 ## 📝 Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Authors](#authors)
+-   [About](#about)
+-   [Getting Started](#getting_started)
+-   [Deployment](#deployment)
+-   [Usage](#usage)
+-   [Built Using](#built_using)
+-   [Authors](#authors)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -64,8 +64,8 @@ After merge the code into master branch, CI CD system will deploy on vercel
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [NextJs](https://nextjs.org/) - Web Framework
+-   [NextJs](https://nextjs.org/) - Web Framework
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@LQTUAN](https://lorem.ipsum)
+-   [@LQTUAN](https://lorem.ipsum)
